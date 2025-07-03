@@ -36,7 +36,7 @@ body {
 
 .sidebar_menu .logo a{
     color: #fff;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
     position: absolute;
     left: 50px;
@@ -53,6 +53,7 @@ body {
 .sidebar_menu .menu li {
     margin-top: 6px;
     padding: 14px 20px;
+    transition: all 0.3s linear;
 }
 
 .sidebar_menu .menu li:hover {
@@ -70,4 +71,24 @@ body {
     color: #fff;
     font-size: 20px;
     text-decoration: none; 
+}
+
+.sidebar_menu .social_media {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+.social_media i {
+    padding: 0 5px;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: all 0.2s linear;
+}
+
+.social_media i:hover {
+    opacity: 1;
 }
