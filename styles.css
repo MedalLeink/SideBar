@@ -121,11 +121,21 @@ body {
 }
 
 .btn_one i:hover {
-    font-size: 29px;
+    /* font-size: 29px; */
 }
 
 .btn_one i:hover {
     font-size: 24px;
 }
 
-#check:checked ~ 
+#check:checked ~.sidebar_menu {
+    left: 0px;
+}
+
+#check:checked ~ .btn_one i {
+    opacity: 0;
+}
+
+#check:checked ~ .sidebar_menu .two i {
+    opacity: 1;
+}
