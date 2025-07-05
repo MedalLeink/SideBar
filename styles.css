@@ -13,7 +13,7 @@ body {
 
 .main_box {
     position: relative;
-    background: url('images/bg.png') right no-repeat;
+    background: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg') right no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -116,12 +116,12 @@ body {
     position: absolute;
     left: 240px;
     cursor: pointer;
-    opacity: 0;
+    /* opacity: 0; */
     transition: all 0.3s linear;
 }
 
 .btn_one i:hover {
-    /* font-size: 29px; */
+    font-size: 29px;
 }
 
 .btn_one i:hover {
